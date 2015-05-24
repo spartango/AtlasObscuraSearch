@@ -16,12 +16,13 @@ curl -H "Accept: application/json" http://www.atlasobscura.com/search\?q\=\&lat\
 // &page=1&source=desktop
 
 var http = require('http');
+var fs   = require('fs');
 
 function queryAtlasObscura(lat, lng, neLat, neLng, swLat, swLng, callback) {
     queryAtlasObscuraPage(lat, lng, neLat, neLng, swLat, swLng, 1, [], callback)
 }
 
-/** 
+/**
  * Execute queries against Atlas Obscura
  */
 function queryAtlasObscuraPage(lat, lng, neLat, neLng, swLat, swLng, page, results, callback) {
@@ -42,7 +43,7 @@ function queryAtlasObscuraPage(lat, lng, neLat, neLng, swLat, swLng, page, resul
 	  path: queryString,
 	  method: 'GET',
 	  headers: {
-	    'Accept': 'application/json',
+	    'Accept': 'application/json'
 	  }
 	};
 
@@ -100,8 +101,8 @@ function searchRoute(startLat, startLng, endLat, endLng, callback) {
 function searchAround(lat, lng, callback) {
 	var latRange = 1;
 	var lngRange = 2;
-	queryAtlasObscura(lat, 
-					  lng, 
+	queryAtlasObscura(lat,
+					  lng,
 					  lat + latRange, // NE
                       lng + lngRange, // NE
                       lat - latRange, // SW
@@ -125,19 +126,19 @@ function searchAround(lat, lng, callback) {
 
 // - Run -
 var ourCities = [
-    { name: "Boston, MA, USA", lng: -71.058880, lat: 42.360082 }, 
-    { name: "Providence, RI, USA", lng: -71.389160, lat: 41.795888 }, 
-    { name: "New York", lng: -74.005941, lat: 40.712784 }, 
-    { name: "Philadelphia, PA, United States", lng: -75.165222, lat: 39.952584 }, 
-    { name: "Chester County, PA, USA", lng: -75.585938, lat: 40.111689 }, 
-    { name: "Washington DC", lng: -77.036871, lat: 38.907192 }, 
-    { name: "Norfolk, VA, United States", lng: -76.285873, lat: 36.850769 }, 
-    { name: "North Carolina, USA", lng: -77.944710, lat: 34.225726 }, 
-    { name: "Charleston, SC, USA", lng: -79.947510, lat: 32.768800 }, 
-    { name: "Jacksonville, FL, USA", lng: -81.672363, lat: 30.334954 }, 
-    { name: "Atlanta, GA, USA", lng: -84.385986, lat: 33.751748 }, 
-    { name: "Nashville, TN, United States", lng: -86.781602, lat: 36.162664 }, 
-    { name: "Terre Haute", lng: -87.413909, lat: 39.466703 }, 
+    { name: "Boston, MA, USA", lng: -71.058880, lat: 42.360082 },
+    { name: "Providence, RI, USA", lng: -71.389160, lat: 41.795888 },
+    { name: "New York", lng: -74.005941, lat: 40.712784 },
+    { name: "Philadelphia, PA, United States", lng: -75.165222, lat: 39.952584 },
+    { name: "Chester County, PA, USA", lng: -75.585938, lat: 40.111689 },
+    { name: "Washington DC", lng: -77.036871, lat: 38.907192 },
+    { name: "Norfolk, VA, United States", lng: -76.285873, lat: 36.850769 },
+    { name: "North Carolina, USA", lng: -77.944710, lat: 34.225726 },
+    { name: "Charleston, SC, USA", lng: -79.947510, lat: 32.768800 },
+    { name: "Jacksonville, FL, USA", lng: -81.672363, lat: 30.334954 },
+    { name: "Atlanta, GA, USA", lng: -84.385986, lat: 33.751748 },
+    { name: "Nashville, TN, United States", lng: -86.781602, lat: 36.162664 },
+    { name: "Terre Haute", lng: -87.413909, lat: 39.466703 },
     { name: "Chicago", lng: -87.629798, lat: 41.878114 }
 ];
 
@@ -151,7 +152,9 @@ function searchCities (cities) {
             searchCities(cities);
         });
     } else {
-        console.log(JSON.stringify(cityPlaces));
+        var cityData = JSON.stringify(cityPlaces, null, 4);
+        fs.writeFile('cities.json', cityData);
+        console.log("City places written");
     }
 }
 
@@ -159,20 +162,22 @@ var legPlaces = {};
 
 function searchLegs (cities) {
     if(cities.length > 1) {
-        var city = cities.pop();
-        var nextCity = cities[cities.length - 1];
-        searchRoute(city['lat'], 
-                    city['lng'], 
-                    nextCity['lat'], 
-                    nextCity['lng'], 
+        var nextCity = cities.pop();
+        var city = cities[cities.length - 1];
+        searchRoute(city['lat'],
+                    city['lng'],
+                    nextCity['lat'],
+                    nextCity['lng'],
                     function(results) {
                         legPlaces[city['name']+' to '+nextCity['name']] = results;
                         searchLegs(cities);
         });
     } else {
-        console.log(JSON.stringify(legPlaces));
+        var legData = JSON.stringify(legPlaces, null, 4);
+        fs.writeFile('legs.json', legData);
+        console.log("Leg places written");
     }
 }
 
-// searchCities(ourCities.slice(0));
+searchCities(ourCities.slice(0));
 searchLegs(ourCities.slice(0));
