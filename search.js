@@ -156,4 +156,24 @@ function searchCities (cities) {
     }
 }
 
-searchCities(ourCities);
+var legPlaces = {};
+
+function searchLegs (cities) {
+    if(cities.length > 1) {
+        var city = cities.pop();
+        var nextCity = cities[cities.length - 1];
+        searchRoute(city['lat'], 
+                    city['lng'], 
+                    nextCity['lat'], 
+                    nextCity['lng'], 
+                    function(results) {
+                        legPlaces[city['name']+' to '+nextCity['name']] = results;
+                        searchCities(cities);
+        });
+    } else {
+        console.log(JSON.stringify(legPlaces));
+    }
+}
+
+// searchCities(ourCities.slice(0));
+searchLegs(ourCities.slice(0));
