@@ -147,7 +147,6 @@ function searchCities (cities) {
     if(cities.length > 0) {
         var city = cities.pop();
         searchAround(city['lat'], city['lng'], function(results) {
-            // console.log('Results: '+results);
             cityPlaces[city['name']] = results;
             searchCities(cities);
         });
@@ -168,7 +167,7 @@ function searchLegs (cities) {
                     nextCity['lng'], 
                     function(results) {
                         legPlaces[city['name']+' to '+nextCity['name']] = results;
-                        searchCities(cities);
+                        searchLegs(cities);
         });
     } else {
         console.log(JSON.stringify(legPlaces));
