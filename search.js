@@ -98,8 +98,8 @@ function searchRoute(startLat, startLng, endLat, endLng, callback) {
  * Search the area between two locations
  */
 function searchAround(lat, lng, callback) {
-	var latRange = 0.01;
-	var lngRange = 0.02;
+	var latRange = 1;
+	var lngRange = 2;
 	queryAtlasObscura(lat, 
 					  lng, 
 					  lat + latRange, // NE
@@ -118,7 +118,42 @@ function searchAround(lat, lng, callback) {
 //     console.log(JSON.stringify(response));
 // })
 
-searchRoute(42.37, -71.05, 42.35, -71.07, function(response) {
-    console.log(response.length + " results");
-    console.log(JSON.stringify(response));
-})
+// searchRoute(42.37, -71.05, 42.35, -71.07, function(response) {
+//     console.log(response.length + " results");
+//     console.log(JSON.stringify(response));
+// })
+
+// - Run -
+var ourCities = [
+    { name: "Boston, MA, USA", lng: -71.058880, lat: 42.360082 }, 
+    { name: "Providence, RI, USA", lng: -71.389160, lat: 41.795888 }, 
+    { name: "New York", lng: -74.005941, lat: 40.712784 }, 
+    { name: "Philadelphia, PA, United States", lng: -75.165222, lat: 39.952584 }, 
+    { name: "Chester County, PA, USA", lng: -75.585938, lat: 40.111689 }, 
+    { name: "Washington DC", lng: -77.036871, lat: 38.907192 }, 
+    { name: "Norfolk, VA, United States", lng: -76.285873, lat: 36.850769 }, 
+    { name: "North Carolina, USA", lng: -77.944710, lat: 34.225726 }, 
+    { name: "Charleston, SC, USA", lng: -79.947510, lat: 32.768800 }, 
+    { name: "Jacksonville, FL, USA", lng: -81.672363, lat: 30.334954 }, 
+    { name: "Atlanta, GA, USA", lng: -84.385986, lat: 33.751748 }, 
+    { name: "Nashville, TN, United States", lng: -86.781602, lat: 36.162664 }, 
+    { name: "Terre Haute", lng: -87.413909, lat: 39.466703 }, 
+    { name: "Chicago", lng: -87.629798, lat: 41.878114 }
+];
+
+var cityPlaces = {};
+
+function searchCities (cities) {
+    if(cities.length > 0) {
+        var city = cities.pop();
+        searchAround(city['lat'], city['lng'], function(results) {
+            // console.log('Results: '+results);
+            cityPlaces[city['name']] = results;
+            searchCities(cities);
+        });
+    } else {
+        console.log(JSON.stringify(cityPlaces));
+    }
+}
+
+searchCities(ourCities);
