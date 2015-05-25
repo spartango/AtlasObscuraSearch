@@ -1,5 +1,5 @@
 {
-    "Terre Haute to Chicago": [
+    "Terre Haute, IN to Chicago, IL": [
         {
             "title": "Pullman Historic District ",
             "subtitle": "First planned industrial community in the United States\r\n\r\n",
@@ -183,7 +183,7 @@
             "place_id": 11159
         }
     ],
-    "Nashville, TN, United States to Terre Haute": [
+    "Nashville, TN to Terre Haute, IN": [
         {
             "title": "Lincoln Boyhood National Memorial",
             "subtitle": "The farm where one of America's greatest leaders was raised is now a well appointed landmark",
@@ -311,7 +311,7 @@
             "place_id": 11159
         }
     ],
-    "Atlanta, GA, USA to Nashville, TN, United States": [
+    "Atlanta, GA to Nashville, TN": [
         {
             "title": "Raccoon Mountain Caverns",
             "subtitle": "More than five miles of underground passageways",
@@ -551,7 +551,7 @@
             "place_id": 11144
         }
     ],
-    "Jacksonville, FL, USA to Atlanta, GA, USA": [
+    "Jacksonville, FL to Atlanta, GA": [
         {
             "title": "The Eerie Earthworms of Hawkinsville, Georgia",
             "subtitle": "Beneath the surface, something slithers. And if you find it, prepare to be slimed and glowing.",
@@ -777,7 +777,7 @@
             "place_id": 3037
         }
     ],
-    "Charleston, SC, USA to Jacksonville, FL, USA": [
+    "Charleston, SC to Jacksonville, FL": [
         {
             "title": "Grave of Corinne Elliot Lawton",
             "subtitle": "This haunting tombstone comes complete with a heartbreaking story of love and loss",
@@ -1031,7 +1031,7 @@
             "place_id": 10194
         }
     ],
-    "North Carolina, USA to Charleston, SC, USA": [
+    "Wilmington, NC to Charleston, SC": [
         {
             "title": "Atalaya",
             "subtitle": "The uniquely-designed winter home and sculpture studio of Anna and Archer Huntington",
@@ -1173,7 +1173,7 @@
             "place_id": 205
         }
     ],
-    "Norfolk, VA, United States to North Carolina, USA": [
+    "Norfolk, VA to Wilmington, NC": [
         {
             "title": "Belhaven Memorial Museum",
             "subtitle": "A monument to the sheer amount of oddities one can collect over a lifetime.",
@@ -1245,7 +1245,7 @@
             "place_id": 8201
         }
     ],
-    "Washington DC to Norfolk, VA, United States": [
+    "Washington, DC to Norfolk, VA": [
         {
             "title": "Point Lookout State Park",
             "subtitle": "This scenic Maryland park was the site of one of the worst prison camps of the Civil War",
@@ -1527,7 +1527,7 @@
             "place_id": 210
         }
     ],
-    "Chester County, PA, USA to Washington DC": [
+    "Philadelphia, PA, United States to Washington, DC": [
         {
             "title": "Havre de Grace Decoy Museum",
             "subtitle": "The Decoy Capital of the World",
@@ -1539,8 +1539,22 @@
                 "lng": "-76.086931"
             },
             "location": "Havre de Grace, Maryland",
-            "distance_from_query": "12.14",
+            "distance_from_query": "7.62",
             "place_id": 2210
+        },
+        {
+            "title": "Fort Carroll",
+            "subtitle": "This abandoned sea fort has become an accidental bird sanctuary ",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5ODIzYjJhNzYzNmZlNzk2OV9GT1JUX0NBUlJPTF8xXzcyXzUwMC5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5ODIzYjJhNzYzNmZlNzk2OV9GT1JUX0NBUlJPTF8xXzcyXzUwMC5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/fort-carroll",
+            "coordinates": {
+                "lat": "39.2146",
+                "lng": "-76.5192"
+            },
+            "location": "Baltimore , Maryland",
+            "distance_from_query": "26.85",
+            "place_id": 13147
         },
         {
             "title": "The National Great Blacks in Wax Museum ",
@@ -1553,36 +1567,8 @@
                 "lng": "-76.596848"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "20.46",
+            "distance_from_query": "27.71",
             "place_id": 214
-        },
-        {
-            "title": "Bazaar",
-            "subtitle": "Crammed into a Baltimore row house is an oddities shop that sells everything from skulls to dead insects",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2NlZmQ5ZDM3NTg0YTQ1MGZmOV9EU0NfMDEyM3NtLmpwZyJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2NlZmQ5ZDM3NTg0YTQ1MGZmOV9EU0NfMDEyM3NtLmpwZyJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "url": "/places/bazaar",
-            "coordinates": {
-                "lat": "39.330847",
-                "lng": "-76.629653"
-            },
-            "location": "Baltimore, Maryland",
-            "distance_from_query": "21.00",
-            "place_id": 8455
-        },
-        {
-            "title": "Elijah Bond's Ouija Board Grave",
-            "subtitle": "The man who first patented the Ouija Board rests in peace beneath a headstone that playfully reflects that achievement",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5Y2U1OTAyYjMwNmNjNmVlZWQ5NWNiMmQxNDI1NTc5NTI3ZDYwZjEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/c9ce5902b306cc6eeed95cb2d1425579527d60f1.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5Y2U1OTAyYjMwNmNjNmVlZWQ5NWNiMmQxNDI1NTc5NTI3ZDYwZjEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/c9ce5902b306cc6eeed95cb2d1425579527d60f1.jpg/image.jpg",
-            "url": "/places/elijah-bond-s-ouija-board-grave",
-            "coordinates": {
-                "lat": "39.3088",
-                "lng": "-76.609297"
-            },
-            "location": "Baltimore, Maryland",
-            "distance_from_query": "21.10",
-            "place_id": 4689
         },
         {
             "title": " Site of Edgar Allan Poe's Death",
@@ -1595,22 +1581,22 @@
                 "lng": "-76.594212"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "21.25",
+            "distance_from_query": "27.99",
             "place_id": 4687
         },
         {
-            "title": "George Peabody Library",
-            "subtitle": "It's not hard to see why this historic Johns Hopkins library has been described as a \"cathedral of books\"",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MGRkYzI4NzA4YTljOTRlOV84Mzg0NjEzNTk5XzdmMTQ2YmFiYjFfay5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MGRkYzI4NzA4YTljOTRlOV84Mzg0NjEzNTk5XzdmMTQ2YmFiYjFfay5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/george-peabody-library",
+            "title": "Elijah Bond's Ouija Board Grave",
+            "subtitle": "The man who first patented the Ouija Board rests in peace beneath a headstone that playfully reflects that achievement",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5Y2U1OTAyYjMwNmNjNmVlZWQ5NWNiMmQxNDI1NTc5NTI3ZDYwZjEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/c9ce5902b306cc6eeed95cb2d1425579527d60f1.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5Y2U1OTAyYjMwNmNjNmVlZWQ5NWNiMmQxNDI1NTc5NTI3ZDYwZjEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/c9ce5902b306cc6eeed95cb2d1425579527d60f1.jpg/image.jpg",
+            "url": "/places/elijah-bond-s-ouija-board-grave",
             "coordinates": {
-                "lat": "39.297203",
-                "lng": "-76.615017"
+                "lat": "39.3088",
+                "lng": "-76.609297"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "21.86",
-            "place_id": 13071
+            "distance_from_query": "28.41",
+            "place_id": 4689
         },
         {
             "title": "The American Visionary Art Museum",
@@ -1623,8 +1609,50 @@
                 "lng": "-76.606768"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "22.35",
+            "distance_from_query": "28.93",
             "place_id": 134
+        },
+        {
+            "title": "George Peabody Library",
+            "subtitle": "It's not hard to see why this historic Johns Hopkins library has been described as a \"cathedral of books\"",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MGRkYzI4NzA4YTljOTRlOV84Mzg0NjEzNTk5XzdmMTQ2YmFiYjFfay5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MGRkYzI4NzA4YTljOTRlOV84Mzg0NjEzNTk5XzdmMTQ2YmFiYjFfay5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/george-peabody-library",
+            "coordinates": {
+                "lat": "39.297203",
+                "lng": "-76.615017"
+            },
+            "location": "Baltimore, Maryland",
+            "distance_from_query": "28.95",
+            "place_id": 13071
+        },
+        {
+            "title": "Bazaar",
+            "subtitle": "Crammed into a Baltimore row house is an oddities shop that sells everything from skulls to dead insects",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2NlZmQ5ZDM3NTg0YTQ1MGZmOV9EU0NfMDEyM3NtLmpwZyJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2NlZmQ5ZDM3NTg0YTQ1MGZmOV9EU0NfMDEyM3NtLmpwZyJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "url": "/places/bazaar",
+            "coordinates": {
+                "lat": "39.330847",
+                "lng": "-76.629653"
+            },
+            "location": "Baltimore, Maryland",
+            "distance_from_query": "29.05",
+            "place_id": 8455
+        },
+        {
+            "title": "Geppi's Entertainment Museum",
+            "subtitle": "Walk through the history of American pop culture",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2E1MGZmYWEwYzVkNzVkYWI1YTlmZjA2MmVkZmViMDkxYWY5NzAzMTUuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/a50ffaa0c5d75dab5a9ff062edfeb091af970315.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2E1MGZmYWEwYzVkNzVkYWI1YTlmZjA2MmVkZmViMDkxYWY5NzAzMTUuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/a50ffaa0c5d75dab5a9ff062edfeb091af970315.jpg/image.jpg",
+            "url": "/places/geppi-s-entertainment-museum",
+            "coordinates": {
+                "lat": "39.283594",
+                "lng": "-76.619681"
+            },
+            "location": "Baltimore, Maryland",
+            "distance_from_query": "29.49",
+            "place_id": 3943
         },
         {
             "title": "Edgar Allan Poe's Grave",
@@ -1637,7 +1665,7 @@
                 "lng": "-76.62316"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "22.50",
+            "distance_from_query": "29.51",
             "place_id": 8113
         },
         {
@@ -1651,22 +1679,8 @@
                 "lng": "-76.623628"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "22.60",
+            "distance_from_query": "29.58",
             "place_id": 216
-        },
-        {
-            "title": "Geppi's Entertainment Museum",
-            "subtitle": "Walk through the history of American pop culture",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2E1MGZmYWEwYzVkNzVkYWI1YTlmZjA2MmVkZmViMDkxYWY5NzAzMTUuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/a50ffaa0c5d75dab5a9ff062edfeb091af970315.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2E1MGZmYWEwYzVkNzVkYWI1YTlmZjA2MmVkZmViMDkxYWY5NzAzMTUuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/a50ffaa0c5d75dab5a9ff062edfeb091af970315.jpg/image.jpg",
-            "url": "/places/geppi-s-entertainment-museum",
-            "coordinates": {
-                "lat": "39.283594",
-                "lng": "-76.619681"
-            },
-            "location": "Baltimore, Maryland",
-            "distance_from_query": "22.68",
-            "place_id": 3943
         },
         {
             "title": "Nutshell Studies of Unexplained Death",
@@ -1679,36 +1693,22 @@
                 "lng": "-76.632638"
             },
             "location": "Baltimore, Maryland",
-            "distance_from_query": "22.93",
+            "distance_from_query": "30.02",
             "place_id": 2676
         },
         {
-            "title": "Fort Carroll",
-            "subtitle": "This abandoned sea fort has become an accidental bird sanctuary ",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5ODIzYjJhNzYzNmZlNzk2OV9GT1JUX0NBUlJPTF8xXzcyXzUwMC5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M5ODIzYjJhNzYzNmZlNzk2OV9GT1JUX0NBUlJPTF8xXzcyXzUwMC5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/fort-carroll",
+            "title": "Fort Delaware",
+            "subtitle": "A scenic fort on the harbor protected Philadelphia from an attack that never came",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2RlOTFiMmZkMDJkMDkzMDlmOGM2Y2Q4MTA2NDM1NmZlODk2MzVlNWEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/de91b2fd02d09309f8c6cd81064356fe89635e5a.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2RlOTFiMmZkMDJkMDkzMDlmOGM2Y2Q4MTA2NDM1NmZlODk2MzVlNWEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/de91b2fd02d09309f8c6cd81064356fe89635e5a.jpg/image.jpg",
+            "url": "/places/fort-delaware",
             "coordinates": {
-                "lat": "39.2146",
-                "lng": "-76.5192"
+                "lat": "39.589653",
+                "lng": "-75.56741"
             },
-            "location": "Baltimore , Maryland",
-            "distance_from_query": "23.20",
-            "place_id": 13147
-        },
-        {
-            "title": "Rehmeyer's Hollow",
-            "subtitle": "Home - and murder site - of the witch of Rehmeyers Hollow",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk0YzgyYmZhN2RmMzBhZDE1MGUxY2JiYzA0OGE2YmYxZmY0NWQ5MjEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/94c82bfa7df30ad150e1cbbc048a6bf1ff45d921.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk0YzgyYmZhN2RmMzBhZDE1MGUxY2JiYzA0OGE2YmYxZmY0NWQ5MjEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/94c82bfa7df30ad150e1cbbc048a6bf1ff45d921.jpg/image.jpg",
-            "url": "/places/rehmeyers-hollow",
-            "coordinates": {
-                "lat": "39.802078",
-                "lng": "-76.644713"
-            },
-            "location": "Stewartstown, Pennsylvania",
-            "distance_from_query": "26.89",
-            "place_id": 2566
+            "location": "Delaware City, Delaware",
+            "distance_from_query": "30.51",
+            "place_id": 3616
         },
         {
             "title": "Urology Museum",
@@ -1721,8 +1721,22 @@
                 "lng": "-76.672394"
             },
             "location": "Linthicum Heights, Maryland",
-            "distance_from_query": "28.29",
+            "distance_from_query": "34.12",
             "place_id": 1960
+        },
+        {
+            "title": "Johnson Victrola Museum ",
+            "subtitle": "Museum houses an impressive display of the origin and artistry from the now-quaint invention's history",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U5ZGYzMjM0ZmM3YmI2OTBjODdkYzI4YzRiOTg2OGUwZGU5NzkzNjUuanBnIl0sWyJwIiwidGh1bWIiLCIxMDI0eDY4MiswKzQyIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/e9df3234fc7bb690c87dc28c4b9868e0de979365.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U5ZGYzMjM0ZmM3YmI2OTBjODdkYzI4YzRiOTg2OGUwZGU5NzkzNjUuanBnIl0sWyJwIiwidGh1bWIiLCIxMDI0eDY4MiswKzQyIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/e9df3234fc7bb690c87dc28c4b9868e0de979365.jpg/image.jpg",
+            "url": "/places/johnson-victrola-museum",
+            "coordinates": {
+                "lat": "39.155608",
+                "lng": "-75.527281"
+            },
+            "location": "Dover, Delaware",
+            "distance_from_query": "36.06",
+            "place_id": 4811
         },
         {
             "title": "Hell House Altar",
@@ -1735,8 +1749,22 @@
                 "lng": "-76.747448"
             },
             "location": "Ilchester, Maryland",
-            "distance_from_query": "29.81",
+            "distance_from_query": "36.95",
             "place_id": 13163
+        },
+        {
+            "title": "John Paul Jones Crypt",
+            "subtitle": "Rediscovered after a century, the father of the American Navy was reinterred in something dredged up from Davy Jones' Locker",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MWVhYjVmZDIxNWZhYjJlY184MDBweC10aHVtYm5haWwuanBnIl0sWyJwIiwidGh1bWIiLCI3OTl4NTMzKzArNjAiXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MWVhYjVmZDIxNWZhYjJlY184MDBweC10aHVtYm5haWwuanBnIl0sWyJwIiwidGh1bWIiLCI3OTl4NTMzKzArNjAiXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/john-paul-jones-crypt",
+            "coordinates": {
+                "lat": "38.980689",
+                "lng": "-76.481842"
+            },
+            "location": "Annapolis, Maryland",
+            "distance_from_query": "37.13",
+            "place_id": 13292
         },
         {
             "title": "St. Mary's College",
@@ -1749,8 +1777,36 @@
                 "lng": "-76.76582"
             },
             "location": "Ellicott City, Maryland",
-            "distance_from_query": "30.15",
+            "distance_from_query": "37.62",
             "place_id": 4034
+        },
+        {
+            "title": "Longwood Gardens",
+            "subtitle": "This palatial botanical garden is home to one of the largest pipe organs ever installed in a private residence, and a piece of Wood's cycad",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M0MjFhYWY3NTRhOTk0NmUzMF8xMDI0cHgtTG9uZ3dvb2RfR2FyZGVuc19Gb3VudGFpbnNfMjAwOC5KUEciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M0MjFhYWY3NTRhOTk0NmUzMF8xMDI0cHgtTG9uZ3dvb2RfR2FyZGVuc19Gb3VudGFpbnNfMjAwOC5KUEciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/longwood-gardens",
+            "coordinates": {
+                "lat": "39.8712",
+                "lng": "-75.6747"
+            },
+            "location": "Kennett Square, Pennsylvania",
+            "distance_from_query": "38.00",
+            "place_id": 11571
+        },
+        {
+            "title": "Rehmeyer's Hollow",
+            "subtitle": "Home - and murder site - of the witch of Rehmeyers Hollow",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk0YzgyYmZhN2RmMzBhZDE1MGUxY2JiYzA0OGE2YmYxZmY0NWQ5MjEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/94c82bfa7df30ad150e1cbbc048a6bf1ff45d921.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk0YzgyYmZhN2RmMzBhZDE1MGUxY2JiYzA0OGE2YmYxZmY0NWQ5MjEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/94c82bfa7df30ad150e1cbbc048a6bf1ff45d921.jpg/image.jpg",
+            "url": "/places/rehmeyers-hollow",
+            "coordinates": {
+                "lat": "39.802078",
+                "lng": "-76.644713"
+            },
+            "location": "Stewartstown, Pennsylvania",
+            "distance_from_query": "38.71",
+            "place_id": 2566
         },
         {
             "title": "Enchanted Forest Theme Park",
@@ -1763,50 +1819,22 @@
                 "lng": "-76.803118"
             },
             "location": "Ellicott City, Maryland",
-            "distance_from_query": "30.42",
+            "distance_from_query": "38.78",
             "place_id": 4270
         },
         {
-            "title": "The Enchanted Forest Pine Tree Maze at Clark's Eliok Farm ",
-            "subtitle": "A local farm's collection of unusual structures from a now defunct storybook amusement park",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzE2NTdkNjk1OTZmNzkwODZhODk2Y2JjYjg0OTNjZmU3NDNhMWIzN2IuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/1657d69596f79086a896cbcb8493cfe743a1b37b.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzE2NTdkNjk1OTZmNzkwODZhODk2Y2JjYjg0OTNjZmU3NDNhMWIzN2IuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/1657d69596f79086a896cbcb8493cfe743a1b37b.jpg/image.jpg",
-            "url": "/places/enchanted-forest-pine-tree-maze",
+            "title": "Ebright Azimuth",
+            "subtitle": "The highest point in Delaware is located under a trailer so this marker across the street will have to do",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk5MDcyODgwODNiMDcxYzEyYl80NjE5NTYyMV9hOGE3ZjNmMDVmX28uanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk5MDcyODgwODNiMDcxYzEyYl80NjE5NTYyMV9hOGE3ZjNmMDVmX28uanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
+            "url": "/places/ebright-azimuth",
             "coordinates": {
-                "lat": "39.237514",
-                "lng": "-76.875514"
+                "lat": "39.832381",
+                "lng": "-75.52118"
             },
-            "location": "Columbia, Maryland",
-            "distance_from_query": "35.51",
-            "place_id": 4772
-        },
-        {
-            "title": "Lancaster Cemetery",
-            "subtitle": "The first of Lancaster's \"rural cemeteries\"",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FhMzZlYjE5MGVmMzk1ZWNmZV9JTUdfMzYxMS5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FhMzZlYjE5MGVmMzk1ZWNmZV9JTUdfMzYxMS5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/lancaster-cemetery",
-            "coordinates": {
-                "lat": "40.037876",
-                "lng": "-76.305514"
-            },
-            "location": "Lancaster, Pennsylvania",
-            "distance_from_query": "36.51",
-            "place_id": 7127
-        },
-        {
-            "title": "Central Market",
-            "subtitle": "The oldest farmer's market in America is so ancient it was approved by the King of England",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U0MjdmODY3YzgyMjQyOGQ1NV84MjAwMTg4MTYxX2M2Yjc5ZjMzOTlfaC5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U0MjdmODY3YzgyMjQyOGQ1NV84MjAwMTg4MTYxX2M2Yjc5ZjMzOTlfaC5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/central-market",
-            "coordinates": {
-                "lat": "40.038621",
-                "lng": "-76.306838"
-            },
-            "location": "Lancaster, Pennsylvania",
-            "distance_from_query": "36.56",
-            "place_id": 12003
+            "location": "Wilmington, Delaware",
+            "distance_from_query": "41.54",
+            "place_id": 10656
         },
         {
             "title": "National Cryptologic Museum",
@@ -1819,7 +1847,7 @@
                 "lng": "-76.771135"
             },
             "location": "Fort Meade, Maryland",
-            "distance_from_query": "36.87",
+            "distance_from_query": "42.05",
             "place_id": 2872
         },
         {
@@ -1833,78 +1861,22 @@
                 "lng": "-76.775556"
             },
             "location": "Laurel, Maryland",
-            "distance_from_query": "37.36",
+            "distance_from_query": "42.48",
             "place_id": 12180
         },
         {
-            "title": "John Paul Jones Crypt",
-            "subtitle": "Rediscovered after a century, the father of the American Navy was reinterred in something dredged up from Davy Jones' Locker",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MWVhYjVmZDIxNWZhYjJlY184MDBweC10aHVtYm5haWwuanBnIl0sWyJwIiwidGh1bWIiLCI3OTl4NTMzKzArNjAiXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M2MWVhYjVmZDIxNWZhYjJlY184MDBweC10aHVtYm5haWwuanBnIl0sWyJwIiwidGh1bWIiLCI3OTl4NTMzKzArNjAiXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/john-paul-jones-crypt",
+            "title": "The Enchanted Forest Pine Tree Maze at Clark's Eliok Farm ",
+            "subtitle": "A local farm's collection of unusual structures from a now defunct storybook amusement park",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzE2NTdkNjk1OTZmNzkwODZhODk2Y2JjYjg0OTNjZmU3NDNhMWIzN2IuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/1657d69596f79086a896cbcb8493cfe743a1b37b.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzE2NTdkNjk1OTZmNzkwODZhODk2Y2JjYjg0OTNjZmU3NDNhMWIzN2IuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/1657d69596f79086a896cbcb8493cfe743a1b37b.jpg/image.jpg",
+            "url": "/places/enchanted-forest-pine-tree-maze",
             "coordinates": {
-                "lat": "38.980689",
-                "lng": "-76.481842"
+                "lat": "39.237514",
+                "lng": "-76.875514"
             },
-            "location": "Annapolis, Maryland",
-            "distance_from_query": "37.65",
-            "place_id": 13292
-        },
-        {
-            "title": "National Watch and Clock Museum ",
-            "subtitle": "North America’s largest collection of horological devices and home to a colossal clock with a dizzying array of features",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2Q3NDE0Y2U0OTMyM2VlNDRkY19oZXkgaGV5IGhleSAuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2Q3NDE0Y2U0OTMyM2VlNDRkY19oZXkgaGV5IGhleSAuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
-            "url": "/places/national-watch-clock-museum",
-            "coordinates": {
-                "lat": "40.037039",
-                "lng": "-76.502221"
-            },
-            "location": "Columbia, Pennsylvania",
-            "distance_from_query": "37.84",
-            "place_id": 7492
-        },
-        {
-            "title": "Shoe House",
-            "subtitle": "An outlandish shoe shaped house built by an eccentric millionaire",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL1Nob2Vob3VzZS5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/Shoehouse.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL1Nob2Vob3VzZS5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/Shoehouse.jpg/image.jpg",
-            "url": "/places/shoe-house",
-            "coordinates": {
-                "lat": "39.999055",
-                "lng": "-76.637111"
-            },
-            "location": "Yorklyn, Pennsylvania",
-            "distance_from_query": "38.00",
-            "place_id": 675
-        },
-        {
-            "title": "The Seven Gates of Hell",
-            "subtitle": "Hellam Township is reputed to feature seven remote gates, which when passed through in the right order, open an entrance to hell",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzAyY2JiMmExYmNlYjYxOGRhMV81NThweC1XaWxkY2F0X0ZhbGxzLF9IZWxsYW1fVG93bnNoaXAuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzAyY2JiMmExYmNlYjYxOGRhMV81NThweC1XaWxkY2F0X0ZhbGxzLF9IZWxsYW1fVG93bnNoaXAuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
-            "url": "/places/the-seven-gates-of-hell",
-            "coordinates": {
-                "lat": "40.035277",
-                "lng": "-76.662857"
-            },
-            "location": "Hellam, Pennsylvania",
-            "distance_from_query": "40.85",
-            "place_id": 7643
-        },
-        {
-            "title": "Longwood Gardens",
-            "subtitle": "This palatial botanical garden is home to one of the largest pipe organs ever installed in a private residence, and a piece of Wood's cycad",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M0MjFhYWY3NTRhOTk0NmUzMF8xMDI0cHgtTG9uZ3dvb2RfR2FyZGVuc19Gb3VudGFpbnNfMjAwOC5KUEciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2M0MjFhYWY3NTRhOTk0NmUzMF8xMDI0cHgtTG9uZ3dvb2RfR2FyZGVuc19Gb3VudGFpbnNfMjAwOC5KUEciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/longwood-gardens",
-            "coordinates": {
-                "lat": "39.8712",
-                "lng": "-75.6747"
-            },
-            "location": "Kennett Square, Pennsylvania",
-            "distance_from_query": "42.08",
-            "place_id": 11571
+            "location": "Columbia, Maryland",
+            "distance_from_query": "43.47",
+            "place_id": 4772
         },
         {
             "title": "National Capital Radio & Television Museum",
@@ -1917,8 +1889,64 @@
                 "lng": "-76.733286"
             },
             "location": "Bowie, Maryland",
-            "distance_from_query": "46.16",
+            "distance_from_query": "48.53",
             "place_id": 5140
+        },
+        {
+            "title": "Dogs of the Titanic",
+            "subtitle": "The canine companions that got seats on the lifeboats, and those that went down with the ship",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ViMThiODdiZDE0YTA2NzBkNGYxOGU1NWRmMDY5ZTY5NTNjZjhlN2MuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/eb18b87bd14a0670d4f18e55df069e6953cf8e7c.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ViMThiODdiZDE0YTA2NzBkNGYxOGU1NWRmMDY5ZTY5NTNjZjhlN2MuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/eb18b87bd14a0670d4f18e55df069e6953cf8e7c.jpg/image.jpg",
+            "url": "/places/dogs-titanic-widener",
+            "coordinates": {
+                "lat": "39.861567",
+                "lng": "-75.35517"
+            },
+            "location": "Chester, Pennsylvania",
+            "distance_from_query": "49.64",
+            "place_id": 4460
+        },
+        {
+            "title": "Lazaretto Quarantine Station",
+            "subtitle": "America's oldest quarantine facility is now falling victim to the incurable disease of time ",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2IzMWZiNmZkNGE4ZjU4Y2YzM19QaGlsbHkgMDQ3LkpQRyJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2IzMWZiNmZkNGE4ZjU4Y2YzM19QaGlsbHkgMDQ3LkpQRyJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "url": "/places/lazaratto-quarentine-station",
+            "coordinates": {
+                "lat": "39.860556",
+                "lng": "-75.300556"
+            },
+            "location": "Tinicum Township, Pennsylvania",
+            "distance_from_query": "51.95",
+            "place_id": 12128
+        },
+        {
+            "title": "The Lower Swedish Cabin",
+            "subtitle": "One of the oldest log cabins in America is one of the last of its kind this historic Swedish dwelling remains a piece of living history ",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2JiNWM1OThlZDRjNjIzZTQyZV8yMDgxODNfMTAxNTEwNTg0MjI3MTI2NTdfNTQ2MzE5NzE4X24uanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2JiNWM1OThlZDRjNjIzZTQyZV8yMDgxODNfMTAxNTEwNTg0MjI3MTI2NTdfNTQ2MzE5NzE4X24uanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
+            "url": "/places/the-lower-swedish-cabin",
+            "coordinates": {
+                "lat": "39.934891",
+                "lng": "-75.295078"
+            },
+            "location": "Upper Darby, Pennsylvania",
+            "distance_from_query": "55.26",
+            "place_id": 11965
+        },
+        {
+            "title": "Mount Moriah Cemetery",
+            "subtitle": "An abandoned cemetery lies in ruins as the surrounding forest swallows it whole",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzBmNWZiZWExZDBhZmQ1YWI4Nl9JTUdfMTk3NC5KUEciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzBmNWZiZWExZDBhZmQ1YWI4Nl9JTUdfMTk3NC5KUEciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/mount-moriah-cemetery",
+            "coordinates": {
+                "lat": "39.93553",
+                "lng": "-75.238405"
+            },
+            "location": "Philadelphia, Pennsylvania",
+            "distance_from_query": "57.66",
+            "place_id": 11545
         },
         {
             "title": "Acorn Park",
@@ -1931,8 +1959,22 @@
                 "lng": "-77.028942"
             },
             "location": "Silver Spring, Maryland",
-            "distance_from_query": "52.56",
+            "distance_from_query": "58.24",
             "place_id": 681
+        },
+        {
+            "title": "National Capitol Columns",
+            "subtitle": "Our country's Capitol's former columns still stand",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ExODZhNjEwODk2NzMzYjdhYmI4YzRiMmRlYmE2N2U4MDdmOTZlYmIuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/a186a610896733b7abb8c4b2deba67e807f96ebb.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ExODZhNjEwODk2NzMzYjdhYmI4YzRiMmRlYmE2N2U4MDdmOTZlYmIuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/a186a610896733b7abb8c4b2deba67e807f96ebb.jpg/image.jpg",
+            "url": "/places/national-capitol-columns",
+            "coordinates": {
+                "lat": "38.910399",
+                "lng": "-76.967557"
+            },
+            "location": "Washington, District of Columbia",
+            "distance_from_query": "58.67",
+            "place_id": 3010
         },
         {
             "title": "The Adams Memorial",
@@ -1945,7 +1987,7 @@
                 "lng": "-77.010278"
             },
             "location": "Washington, District of Columbia",
-            "distance_from_query": "53.92",
+            "distance_from_query": "59.01",
             "place_id": 7920
         },
         {
@@ -1959,22 +2001,8 @@
                 "lng": "-77.000729"
             },
             "location": "Washington, District of Columbia",
-            "distance_from_query": "54.27",
+            "distance_from_query": "59.15",
             "place_id": 3007
-        },
-        {
-            "title": "National Capitol Columns",
-            "subtitle": "Our country's Capitol's former columns still stand",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ExODZhNjEwODk2NzMzYjdhYmI4YzRiMmRlYmE2N2U4MDdmOTZlYmIuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/a186a610896733b7abb8c4b2deba67e807f96ebb.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2ExODZhNjEwODk2NzMzYjdhYmI4YzRiMmRlYmE2N2U4MDdmOTZlYmIuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/a186a610896733b7abb8c4b2deba67e807f96ebb.jpg/image.jpg",
-            "url": "/places/national-capitol-columns",
-            "coordinates": {
-                "lat": "38.910399",
-                "lng": "-76.967557"
-            },
-            "location": "Washington, District of Columbia",
-            "distance_from_query": "54.29",
-            "place_id": 3010
         },
         {
             "title": "Hecht Company Warehouse",
@@ -1987,7 +2015,7 @@
                 "lng": "-76.983887"
             },
             "location": "Washington, District of Columbia",
-            "distance_from_query": "54.62",
+            "distance_from_query": "59.18",
             "place_id": 3002
         },
         {
@@ -2001,153 +2029,25 @@
                 "lng": "-77.032052"
             },
             "location": "Washington, District of Columbia",
-            "distance_from_query": "55.59",
+            "distance_from_query": "60.65",
             "place_id": 4492
+        },
+        {
+            "title": "Rosenbach of the Free Library of Philadelphia",
+            "subtitle": "This little-known collection holds everything from Dracula notes to the forged works of Shakespeare ",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzcxNGFlMzE5M2IxYzMyNTI2OF80OTcyOTU1ODcwXzdlNmQ4NDgxZDhfYi5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzcxNGFlMzE5M2IxYzMyNTI2OF80OTcyOTU1ODcwXzdlNmQ4NDgxZDhfYi5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
+            "url": "/places/rosenbach-of-the-free-library-of-philadelphia",
+            "coordinates": {
+                "lat": "39.947426",
+                "lng": "-75.174667"
+            },
+            "location": "Philadelphia, United States",
+            "distance_from_query": "60.87",
+            "place_id": 12326
         }
     ],
-    "Philadelphia, PA, United States to Chester County, PA, USA": [
-        {
-            "title": "Museum of Mourning Art",
-            "subtitle": "Arlington Cemetery exhibit dedicated to death and grieving",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzFlYTJjNTFiNDQxOWY0NzllMzQ4YmYzZTYyNzM3YWQwMmFkYjBiMmYuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/1ea2c51b4419f479e348bf3e62737ad02adb0b2f.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzFlYTJjNTFiNDQxOWY0NzllMzQ4YmYzZTYyNzM3YWQwMmFkYjBiMmYuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/1ea2c51b4419f479e348bf3e62737ad02adb0b2f.jpg/image.jpg",
-            "url": "/places/museum-of-mourning-art",
-            "coordinates": {
-                "lat": "39.955859",
-                "lng": "-75.297094"
-            },
-            "location": "Drexel Hill, Pennsylvania",
-            "distance_from_query": "6.71",
-            "place_id": 4102
-        },
-        {
-            "title": "Wharton Esherick Museum",
-            "subtitle": "The home and studio of a visionary woodworker now stands as a museum and example of his artistic genius",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQxY2Q1ZTRjODE3YTY3NWNjNV8xNjM4MjMxMjA0XzE3OGU0MWJiZGZfYi5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQxY2Q1ZTRjODE3YTY3NWNjNV8xNjM4MjMxMjA0XzE3OGU0MWJiZGZfYi5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/wharton-esherick-museum",
-            "coordinates": {
-                "lat": "40.083195",
-                "lng": "-75.493509"
-            },
-            "location": "Malvern, Pennsylvania",
-            "distance_from_query": "7.17",
-            "place_id": 13244
-        },
-        {
-            "title": "Duffy's Cut",
-            "subtitle": "Pennsylvanian mass grave and possibly mass murder",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzU1ZmUzZGY5NjQ1MGViOGU3MThjMzRmMGZlYTk0Mzc5MjZlZDZlMjguanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/55fe3df96450eb8e718c34f0fea9437926ed6e28.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzU1ZmUzZGY5NjQ1MGViOGU3MThjMzRmMGZlYTk0Mzc5MjZlZDZlMjguanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/55fe3df96450eb8e718c34f0fea9437926ed6e28.jpg/image.jpg",
-            "url": "/places/duffy-s-cut",
-            "coordinates": {
-                "lat": "40.033415",
-                "lng": "-75.529312"
-            },
-            "location": "Malvern, Pennsylvania",
-            "distance_from_query": "8.13",
-            "place_id": 2574
-        },
-        {
-            "title": "Love Letter Murals",
-            "subtitle": "One artist's love letter to his city and its citizens plays out across dozens of bright murals painted on the sides of decrepit buildings",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzZmMDY0NGEzMWU4ZTNjMmFjYl8yODU0MTdfMjI3MDM4ODMyODU0Ml80Mzc4OTUxX24uanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzZmMDY0NGEzMWU4ZTNjMmFjYl8yODU0MTdfMjI3MDM4ODMyODU0Ml80Mzc4OTUxX24uanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/image.jpg",
-            "url": "/places/love-letter-murals",
-            "coordinates": {
-                "lat": "39.975709",
-                "lng": "-75.2129"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "9.45",
-            "place_id": 11481
-        },
-        {
-            "title": "Laurel Hill Cemetery",
-            "subtitle": "This Philly cemetery is the eternal home of many famous New England residents, including Rocky Balboa's wife",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzZiMWJlOGI5ZDRhMzM1YTQ5ZGRhZGQzNTdiNTFmNjJiTGF1cmVsIEhpbGwgQ2VtZXRlcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTgzeDc4OSszNTErMCJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/Laurel%20Hill%20Cemetery.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzZiMWJlOGI5ZDRhMzM1YTQ5ZGRhZGQzNTdiNTFmNjJiTGF1cmVsIEhpbGwgQ2VtZXRlcnkuanBnIl0sWyJwIiwidGh1bWIiLCIxMTgzeDc4OSszNTErMCJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/Laurel%20Hill%20Cemetery.jpg/image.jpg",
-            "url": "/places/laurel-hill-cemetery",
-            "coordinates": {
-                "lat": "40.004196",
-                "lng": "-75.187555"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "10.13",
-            "place_id": 6286
-        },
-        {
-            "title": "The Golden Gal of Old Madison Square Garden",
-            "subtitle": "Golden and naked, the figure that was once the highest point in New York is all that remains of the second Madison Square Garden",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2I3ZjQyMDk5OWFmM2Y4MzViNl9JTUdfMjQ4Ni5KUEciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2I3ZjQyMDk5OWFmM2Y4MzViNl9JTUdfMjQ4Ni5KUEciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/image.jpg",
-            "url": "/places/the-golden-gal-of-old-madison-square-garden",
-            "coordinates": {
-                "lat": "39.96557",
-                "lng": "-75.180966"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "11.28",
-            "place_id": 11546
-        },
-        {
-            "title": "Eastern State Penitentiary",
-            "subtitle": "World's first \"penitentiary,\" meant to be humane, drove men insane",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzI4MzcyOTgwNjFfMjNmYTZkNDdhOF9iLmpwZyJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/2837298061_23fa6d47a8_b.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzI4MzcyOTgwNjFfMjNmYTZkNDdhOF9iLmpwZyJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/2837298061_23fa6d47a8_b.jpg/image.jpg",
-            "url": "/places/eastern-state-penitentiary",
-            "coordinates": {
-                "lat": "39.967314",
-                "lng": "-75.173693"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "11.59",
-            "place_id": 417
-        },
-        {
-            "title": "The Barnes Foundation",
-            "subtitle": "Dr Barnes' $25 billion private collection of art and arboretum",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2I4ZmZiM2M3ZDk4NzdmNDVmZWRmMTViNTEyNGE0Y2U5YmUyNzhkMGEuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/b8ffb3c7d9877f45fedf15b5124a4ce9be278d0a.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2I4ZmZiM2M3ZDk4NzdmNDVmZWRmMTViNTEyNGE0Y2U5YmUyNzhkMGEuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/b8ffb3c7d9877f45fedf15b5124a4ce9be278d0a.jpg/image.jpg",
-            "url": "/places/the-barnes-foundation",
-            "coordinates": {
-                "lat": "39.960768",
-                "lng": "-75.172203"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "11.84",
-            "place_id": 3923
-        },
-        {
-            "title": "Mutter Museum",
-            "subtitle": "America's most famous museum of medical oddities, and home to the remains of Einstein's Brain\r\n",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL211dHRlci5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/mutter.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL211dHRlci5qcGciXSxbInAiLCJ0aHVtYiIsIjYwMHgyMDAjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/mutter.jpg/image.jpg",
-            "url": "/places/mutter-museum",
-            "coordinates": {
-                "lat": "39.953451",
-                "lng": "-75.176799"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "11.84",
-            "place_id": 212
-        },
-        {
-            "title": "Grip the Raven",
-            "subtitle": "The taxidermied raven that inspired the Poe poem of the same name",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2RzY180MDEyLkpQRyJdLFsicCIsInRodW1iIiwiMTM4eDkyIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/dsc_4012.JPG/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2RzY180MDEyLkpQRyJdLFsicCIsInRodW1iIiwiNjAweDIwMCMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/dsc_4012.JPG/image.jpg",
-            "url": "/places/grip-raven",
-            "coordinates": {
-                "lat": "39.959085",
-                "lng": "-75.170333"
-            },
-            "location": "Philadelphia, Pennsylvania",
-            "distance_from_query": "11.98",
-            "place_id": 419
-        }
-    ],
-    "New York to Philadelphia, PA, United States": [
+    "New York, NY to Philadelphia, PA, United States": [
         {
             "title": "Monument to the War of the Worlds ",
             "subtitle": "Eight foot high bronze monument where the now infamous \"Tripods\" crash landed in the radio version of \"War of the Worlds\"",
@@ -3339,7 +3239,7 @@
             "place_id": 1386
         }
     ],
-    "Providence, RI, USA to New York": [
+    "Providence, RI to New York, NY": [
         {
             "title": "Young Men's Institute Library",
             "subtitle": "One of America's oldest private membership libraries was long one of New Haven's best kept secrets",
@@ -7751,7 +7651,7 @@
             "place_id": 1212
         }
     ],
-    "Boston, MA, USA to Providence, RI, USA": [
+    "Boston, MA to Providence, RI": [
         {
             "title": "Borderland State Park Mansion",
             "subtitle": "The sprawling, eccentric estate of Ames and Ames, a brilliant botanist, and a genius inventor and artist ",

@@ -102,7 +102,7 @@ function searchRoute(startLat, startLng, endLat, endLng, callback) {
  */
 function searchAround(lat, lng, callback) {
 	var latRange = 1;
-	var lngRange = 2;
+	var lngRange = 1;
 	queryAtlasObscura(lat,
 					  lng,
 					  lat + latRange, // NE
@@ -128,20 +128,19 @@ function searchAround(lat, lng, callback) {
 
 // - Run -
 var ourCities = [
-    { name: "Boston, MA, USA", lng: -71.058880, lat: 42.360082 },
-    { name: "Providence, RI, USA", lng: -71.389160, lat: 41.795888 },
-    { name: "New York", lng: -74.005941, lat: 40.712784 },
+    { name: "Boston, MA", lng: -71.058880, lat: 42.360082 },
+    { name: "Providence, RI", lng: -71.389160, lat: 41.795888 },
+    { name: "New York, NY", lng: -74.005941, lat: 40.712784 },
     { name: "Philadelphia, PA, United States", lng: -75.165222, lat: 39.952584 },
-    { name: "Chester County, PA, USA", lng: -75.585938, lat: 40.111689 },
-    { name: "Washington DC", lng: -77.036871, lat: 38.907192 },
-    { name: "Norfolk, VA, United States", lng: -76.285873, lat: 36.850769 },
-    { name: "North Carolina, USA", lng: -77.944710, lat: 34.225726 },
-    { name: "Charleston, SC, USA", lng: -79.947510, lat: 32.768800 },
-    { name: "Jacksonville, FL, USA", lng: -81.672363, lat: 30.334954 },
-    { name: "Atlanta, GA, USA", lng: -84.385986, lat: 33.751748 },
-    { name: "Nashville, TN, United States", lng: -86.781602, lat: 36.162664 },
-    { name: "Terre Haute", lng: -87.413909, lat: 39.466703 },
-    { name: "Chicago", lng: -87.629798, lat: 41.878114 }
+    { name: "Washington, DC", lng: -77.036871, lat: 38.907192 },
+    { name: "Norfolk, VA", lng: -76.285873, lat: 36.850769 },
+    { name: "Wilmington, NC", lng: -77.944710, lat: 34.225726 },
+    { name: "Charleston, SC", lng: -79.947510, lat: 32.768800 },
+    { name: "Jacksonville, FL", lng: -81.672363, lat: 30.334954 },
+    { name: "Atlanta, GA", lng: -84.385986, lat: 33.751748 },
+    { name: "Nashville, TN", lng: -86.781602, lat: 36.162664 },
+    { name: "Terre Haute, IN", lng: -87.413909, lat: 39.466703 },
+    { name: "Chicago, IL", lng: -87.629798, lat: 41.878114 }
 ];
 
 var cityPlaces = {};

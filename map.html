@@ -47,9 +47,15 @@
         var markers = new L.MarkerClusterGroup();
         Object.keys(places).forEach(function (city) {
             places[city].forEach(function (place) {
-                if(allPlaces[place.place_id] == null) {
+                if (allPlaces[place.place_id] == null) {
                     var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
-                    marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">' + place.title + '</a>');
+                    marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">'
+                            + place.title + '</a>'
+                            + '<br/>'
+                            + place.distance_from_query
+                            + 'mi from '
+                            + city
+                    );
                     markers.addLayer(marker);
                     allPlaces[place.place_id] = place;
                     count++;
@@ -60,7 +66,7 @@
         console.log("Placed " + count + " markers");
     };
 
-    var requestData = function(file) {
+    var requestData = function (file) {
         var cityRequest = new XMLHttpRequest();
         cityRequest.onreadystatechange = function () {
             if (cityRequest.readyState == 4) {
