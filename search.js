@@ -57,9 +57,11 @@ function queryAtlasObscuraPage(lat, lng, neLat, neLng, swLat, swLng, page, resul
             var parsed = JSON.parse(body);
             var queryInfo   = parsed['query'];
             var pageResults = parsed['results'];
-
+            var cleanedResults = pageResults.map(function (result) {
+                return result['result'];
+            });
             // Append to results
-            var newResults = results.concat(pageResults);
+            var newResults = results.concat(cleanedResults);
 
             // Check if additional pages necessary
             if(queryInfo['per_page'] * queryInfo['current_page'] < queryInfo['total_items']) {
