@@ -39,6 +39,8 @@
         map.panTo(e.layer.getLatLng());
     });
 
+    var allPlaces = {};
+
     // Load place files
     var count = 0;
     var request = new XMLHttpRequest();
@@ -51,10 +53,13 @@
             var markers = new L.MarkerClusterGroup();
             Object.keys(places).forEach(function (city) {
                 places[city].forEach(function (place) {
-                    var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
-                    marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">' + place.title + '</a>');
-                    markers.addLayer(marker);
-                    count++;
+                    if(allPlaces[place.place_id] == null) {
+                        var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
+                        marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">' + place.title + '</a>');
+                        markers.addLayer(marker);
+                        allPlaces[place.place_id] = place;
+                        count++;
+                    }
                 });
             });
             map.addLayer(markers);
