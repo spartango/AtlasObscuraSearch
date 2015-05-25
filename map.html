@@ -39,36 +39,42 @@
         map.panTo(e.layer.getLatLng());
     });
 
+    // Handle data
     var allPlaces = {};
-
-    // Load place files
     var count = 0;
-    var request = new XMLHttpRequest();
-    request.onreadystatechange = function () {
-        if (request.readyState == 4) {
-            var places = JSON.parse(request.responseText);
-            // Set up markers
-            console.log(Object.keys(places).length + " cities");
 
-            var markers = new L.MarkerClusterGroup();
-            Object.keys(places).forEach(function (city) {
-                places[city].forEach(function (place) {
-                    if(allPlaces[place.place_id] == null) {
-                        var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
-                        marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">' + place.title + '</a>');
-                        markers.addLayer(marker);
-                        allPlaces[place.place_id] = place;
-                        count++;
-                    }
-                });
+    var onData = function (places) {
+        var markers = new L.MarkerClusterGroup();
+        Object.keys(places).forEach(function (city) {
+            places[city].forEach(function (place) {
+                if(allPlaces[place.place_id] == null) {
+                    var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
+                    marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">' + place.title + '</a>');
+                    markers.addLayer(marker);
+                    allPlaces[place.place_id] = place;
+                    count++;
+                }
             });
-            map.addLayer(markers);
-            console.log("Placed " + count + " markers");
-        }
+        });
+        map.addLayer(markers);
+        console.log("Placed " + count + " markers");
     };
-    request.open('GET', 'cities.json', true);
-    console.log("Loading places...");
-    request.send();
+
+    var requestData = function(file) {
+        var cityRequest = new XMLHttpRequest();
+        cityRequest.onreadystatechange = function () {
+            if (cityRequest.readyState == 4) {
+                var places = JSON.parse(cityRequest.responseText);
+                onData(places);
+            }
+        };
+        cityRequest.open('GET', file, true);
+        cityRequest.send();
+    };
+
+    requestData('cities.json');
+    requestData('legs.json');
+
 </script>
 </body>
 </html>
