@@ -35,9 +35,40 @@
     var map = L.mapbox.map('map', 'mapbox.streets')
             .setView([37, -80], 6);
 
-    map.featureLayer.on('click', function (e) {
-        map.panTo(e.layer.getLatLng());
+    // Draw route
+    var ourCities = [
+        {name: "Boston, MA", lng: -71.058880, lat: 42.360082},
+        {name: "Providence, RI", lng: -71.389160, lat: 41.795888},
+        {name: "New York, NY", lng: -74.005941, lat: 40.712784},
+        {name: "Philadelphia, PA", lng: -75.165222, lat: 39.952584},
+        {name: "Washington, DC", lng: -77.036871, lat: 38.907192},
+        {name: "Norfolk, VA", lng: -76.285873, lat: 36.850769},
+        {name: "Wilmington, NC", lng: -77.944710, lat: 34.225726},
+        {name: "Charleston, SC", lng: -79.947510, lat: 32.768800},
+        {name: "Jacksonville, FL", lng: -81.672363, lat: 30.334954},
+        {name: "Atlanta, GA", lng: -84.385986, lat: 33.751748},
+        {name: "Nashville, TN", lng: -86.781602, lat: 36.162664},
+        {name: "Terre Haute, IN", lng: -87.413909, lat: 39.466703},
+        {name: "Chicago, IL", lng: -87.629798, lat: 41.878114}
+    ];
+
+    var linePoints = [];
+
+    ourCities.forEach(function (city) {
+        var latlng = [city.lat, city.lng];
+        L.marker(latlng, {
+            icon: L.mapbox.marker.icon({
+                'marker-size': 'large',
+                'marker-symbol': 'city',
+                'marker-color': '#fa0'
+            })
+        }).on('click', function (e) {
+            map.panTo([city.lat, city.lng]);
+        }).addTo(map);
+        linePoints.push(latlng);
     });
+
+    L.polyline(linePoints).addTo(map);
 
     // Handle data
     var allPlaces = {};
@@ -80,7 +111,6 @@
 
     requestData('cities.json');
     requestData('legs.json');
-
 </script>
 </body>
 </html>
