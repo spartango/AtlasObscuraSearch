@@ -131,7 +131,7 @@ var ourCities = [
     { name: "Boston, MA", lng: -71.058880, lat: 42.360082 },
     { name: "Providence, RI", lng: -71.389160, lat: 41.795888 },
     { name: "New York, NY", lng: -74.005941, lat: 40.712784 },
-    { name: "Philadelphia, PA, United States", lng: -75.165222, lat: 39.952584 },
+    { name: "Philadelphia, PA", lng: -75.165222, lat: 39.952584 },
     { name: "Washington, DC", lng: -77.036871, lat: 38.907192 },
     { name: "Norfolk, VA", lng: -76.285873, lat: 36.850769 },
     { name: "Wilmington, NC", lng: -77.944710, lat: 34.225726 },
