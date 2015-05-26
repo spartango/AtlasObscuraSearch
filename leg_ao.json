@@ -1527,7 +1527,7 @@
             "place_id": 210
         }
     ],
-    "Philadelphia, PA, United States to Washington, DC": [
+    "Philadelphia, PA to Washington, DC": [
         {
             "title": "Havre de Grace Decoy Museum",
             "subtitle": "The Decoy Capital of the World",
@@ -2047,7 +2047,7 @@
             "place_id": 12326
         }
     ],
-    "New York, NY to Philadelphia, PA, United States": [
+    "New York, NY to Philadelphia, PA": [
         {
             "title": "Monument to the War of the Worlds ",
             "subtitle": "Eight foot high bronze monument where the now infamous \"Tripods\" crash landed in the radio version of \"War of the Worlds\"",
@@ -2455,20 +2455,6 @@
             "place_id": 1813
         },
         {
-            "title": "Brooklyn Old Trolley Cars ",
-            "subtitle": "Four cars from the old system were once on display, but were removed in 2014",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FiZTM4Y2Y2M2UxNjkwYWVhNGVkMzViMjNjM2FmMjRmMzdkZWNlMjYuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/abe38cf63e1690aea4ed35b23c3af24f37dece26.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FiZTM4Y2Y2M2UxNjkwYWVhNGVkMzViMjNjM2FmMjRmMzdkZWNlMjYuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/abe38cf63e1690aea4ed35b23c3af24f37dece26.jpg/image.jpg",
-            "url": "/places/brooklyn-old-trolley-cars",
-            "coordinates": {
-                "lat": "40.674283",
-                "lng": "-74.017199"
-            },
-            "location": "Brooklyn, New York",
-            "distance_from_query": "38.06",
-            "place_id": 3207
-        },
-        {
             "title": "The Red Hook Stores",
             "subtitle": "A strip of modern stores in historic buildings",
             "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzY2ZmU5Mzk4ODgzYWJiZjE4Ml9WYW4gQnJ1bnQgIHN0cmVldC5qcGciXSxbInAiLCJ0aHVtYiIsIjEzOHg5MiMiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTEiXV0/image.jpg",
@@ -2481,6 +2467,20 @@
             "location": "Brooklyn, New York",
             "distance_from_query": "38.06",
             "place_id": 8262
+        },
+        {
+            "title": "Brooklyn Old Trolley Cars ",
+            "subtitle": "Four cars from the old system were once on display, but were removed in 2014",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FiZTM4Y2Y2M2UxNjkwYWVhNGVkMzViMjNjM2FmMjRmMzdkZWNlMjYuanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/abe38cf63e1690aea4ed35b23c3af24f37dece26.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FiZTM4Y2Y2M2UxNjkwYWVhNGVkMzViMjNjM2FmMjRmMzdkZWNlMjYuanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/abe38cf63e1690aea4ed35b23c3af24f37dece26.jpg/image.jpg",
+            "url": "/places/brooklyn-old-trolley-cars",
+            "coordinates": {
+                "lat": "40.674283",
+                "lng": "-74.017199"
+            },
+            "location": "Brooklyn, New York",
+            "distance_from_query": "38.06",
+            "place_id": 3207
         },
         {
             "title": "The Lehigh Barge and the Waterfront Museum Showboat Barge",
@@ -7723,20 +7723,6 @@
             "place_id": 10097
         },
         {
-            "title": "Forest Hills Cemetery",
-            "subtitle": "A beautiful Victorian cemetery complete with miniature village",
-            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk2Mzc3NTcxNjUxMmI4YWI2ZGZkNzY2Y2JjNWFmZTNkNjNjMmIyNzguanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/963775716512b8ab6dfd766cbc5afe3d63c2b278.jpg/image.jpg",
-            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk2Mzc3NTcxNjUxMmI4YWI2ZGZkNzY2Y2JjNWFmZTNkNjNjMmIyNzguanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/963775716512b8ab6dfd766cbc5afe3d63c2b278.jpg/image.jpg",
-            "url": "/places/forest-hills-cemetery",
-            "coordinates": {
-                "lat": "42.309737",
-                "lng": "-71.115143"
-            },
-            "location": "Boston, Massachusetts",
-            "distance_from_query": "16.95",
-            "place_id": 3615
-        },
-        {
             "title": "Lucy Parsons Center",
             "subtitle": "Radical Bookstore and Community Space",
             "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzgwMHB4LUx1Y3lfUGFyc29uc19DZW50ZXIuSlBHIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/800px-Lucy_Parsons_Center.JPG/image.jpg",
@@ -7749,6 +7735,20 @@
             "location": "Boston, Massachusetts",
             "distance_from_query": "16.95",
             "place_id": 1377
+        },
+        {
+            "title": "Forest Hills Cemetery",
+            "subtitle": "A beautiful Victorian cemetery complete with miniature village",
+            "thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk2Mzc3NTcxNjUxMmI4YWI2ZGZkNzY2Y2JjNWFmZTNkNjNjMmIyNzguanBnIl0sWyJwIiwidGh1bWIiLCIxMzh4OTIjIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDkxIl1d/963775716512b8ab6dfd766cbc5afe3d63c2b278.jpg/image.jpg",
+            "mobile_thumbnail_url": "http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzk2Mzc3NTcxNjUxMmI4YWI2ZGZkNzY2Y2JjNWFmZTNkNjNjMmIyNzguanBnIl0sWyJwIiwidGh1bWIiLCI2MDB4MjAwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSJdXQ/963775716512b8ab6dfd766cbc5afe3d63c2b278.jpg/image.jpg",
+            "url": "/places/forest-hills-cemetery",
+            "coordinates": {
+                "lat": "42.309737",
+                "lng": "-71.115143"
+            },
+            "location": "Boston, Massachusetts",
+            "distance_from_query": "16.95",
+            "place_id": 3615
         },
         {
             "title": "98 Prince Street",

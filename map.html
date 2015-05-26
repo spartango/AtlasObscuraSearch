@@ -80,13 +80,19 @@
             places[city].forEach(function (place) {
                 if (allPlaces[place.place_id] == null) {
                     var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
-                    marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/' + place.url + '">'
-                            + place.title + '</a>'
-                            + '<br/>'
-                            + place.distance_from_query
-                            + 'mi from '
-                            + city
-                    );
+                    if (place.reference != null) {
+                        // Google Entry
+                        marker.bindPopup(place.name + '<br/>' + place.vicinity);
+                    } else {
+                        marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/'
+                                + place.url + '">'
+                                + place.title + '</a>'
+                                + '<br/>'
+                                + place.distance_from_query
+                                + 'mi from '
+                                + city
+                        );
+                    }
                     markers.addLayer(marker);
                     allPlaces[place.place_id] = place;
                     count++;
@@ -109,8 +115,9 @@
         cityRequest.send();
     };
 
-    requestData('cities.json');
-    requestData('legs.json');
+    requestData('city_ao.json');
+    requestData('leg_ao.json');
+    requestData('city_gp.json');
 </script>
 </body>
 </html>

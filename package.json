@@ -1,0 +1,13 @@
+{
+  "name": "AtlasObscuraSearch",
+  "description": "Atlas Obscura Search System",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartango/AtlasObscuraSearch"
+  },
+  "dependencies": {
+    "yelp": "0.2.0",
+    "googleplaces": "0.5.1"
+  },
+  "license": "MIT"
+}
