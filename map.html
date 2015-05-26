@@ -82,7 +82,16 @@
                     var marker = L.marker([place.coordinates.lat, place.coordinates.lng]);
                     if (place.reference != null) {
                         // Google Entry
-                        marker.bindPopup(place.name + '<br/>' + place.vicinity);
+                        marker.bindPopup(place.name + '<br/>'
+                                + place.vicinity + '<br/>'
+                                + place.types.map(function (t) {
+                                    return t.charAt(0).toUpperCase() + t.slice(1);
+                                }).join("/").replace(/_/g, " "));
+                        marker.setIcon(L.mapbox.marker.icon({
+                            'marker-size': 'large',
+                            'marker-color': '#f10',
+                            'marker-symbol': 'restaurant'
+                        }));
                     } else {
                         marker.bindPopup('<a target="_blank" href="http://www.atlasobscura.com/'
                                 + place.url + '">'
