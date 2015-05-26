@@ -11,6 +11,15 @@
           rel='stylesheet'/>
     <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css'
           rel='stylesheet'/>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.css'
+          rel='stylesheet'/>
+    <!--[if lt IE 9]>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.css'
+          rel='stylesheet'/>
+    <![endif]-->
+    <link href='https://www.mapbox.com/maki/www/maki-sprite.css'
+          rel='stylesheet'/>
     <style>
         body {
             margin: 0;
@@ -35,6 +44,7 @@
     var map = L.mapbox.map('map', 'mapbox.streets')
             .setView([37, -80], 6);
 
+    L.control.locate().addTo(map);
     // Draw route
     var ourCities = [
         {name: "Boston, MA", lng: -71.058880, lat: 42.360082},
